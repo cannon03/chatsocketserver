@@ -1,8 +1,8 @@
-import express from "express";
+const express = require("express");
 const app = express();
 const PORT = 4000;
 const http = require("http").Server(app);
-import cors from "cors";
+const cors = require("cors");
 
 app.use(cors());
 
